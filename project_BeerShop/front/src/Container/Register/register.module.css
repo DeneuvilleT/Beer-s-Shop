@@ -1,0 +1,121 @@
+.register {
+   color: antiquewhite;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: rgba(29, 29, 29, 0.932);
+   padding-bottom: 50px;
+}
+
+.register h3 {
+   padding-top: 30px;
+   padding-left: 10%;
+   margin: 0;
+   height: 120px;
+   color: wheat;
+}
+
+.register hr {
+   margin-top: 50px;
+   width: 90%;
+}
+
+.register form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 30px auto;
+}
+
+.register form hr {
+   width: 30%;
+   margin: 20px;
+}
+
+.register input,
+.register button {
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
+      0 14px 20px rgba(0, 0, 0, 0.24);
+   background-color: rgb(226, 226, 226);
+   color: rgb(0, 0, 0);
+
+   font-weight: 600;
+   padding: 13px;
+   margin: 10px;
+
+   text-align: center;
+   border-radius: 20px;
+   border: none;
+   height: 8%;
+}
+
+.register input[type="submit"],
+.register button {
+   background-color: rgb(148, 35, 0);
+   color: wheat;
+
+   margin-bottom: 40px;
+   min-width: 150px;
+   cursor: pointer;
+   margin: auto;
+}
+
+.register button:hover,
+.register form input[type="submit"]:hover {
+   cursor: pointer;
+   text-decoration: underline;
+   transform: scale(0.95);
+}
+
+.register input[type="email"] {
+   width: 25%;
+}
+
+.register input[type="password"] {
+   width: 20%;
+}
+
+.register input[placeholder="prénom"],
+.register input[placeholder="mot de passe"],
+.register input[placeholder="code postal"] {
+   margin-bottom: 50px;
+}
+
+.register button {
+   min-width: 175px;
+   width: 20%;
+   margin-top: 50px;
+}
+
+
+
+@media all and (max-width: 680px) {
+   .register {
+      justify-content: center;
+   }
+
+   .register h3 {
+      text-align: center;
+      padding-left: 0;
+   }
+
+   .register input[type="text"],
+   .register input[type="email"],
+   .register input[type="password"] {
+      width: 85%;
+   }
+}
+
+@media all and (min-width:681px)and (max-width: 1024px) {
+
+   .register h3 {
+      text-align: center;
+      padding-left: 0;
+   }
+
+   .register input[type="text"],
+   .register input[type="email"],
+   .register input[type="password"] {
+      width: 60%;
+   }
+}

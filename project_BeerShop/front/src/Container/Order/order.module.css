@@ -1,0 +1,63 @@
+.order {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: antiquewhite;
+   color: dimgray;
+   padding: 5%;
+   width: 70%;
+   min-width: 650px;
+}
+
+.order h1 {
+   color: chocolate;
+   font-size: 2.1rem;
+}
+
+.order h2 {
+   font-size: 2rem;
+   margin-bottom: 0;
+   margin-top: 0;
+   height: 80px !important;
+}
+
+.order h3 {
+   color: black !important;
+   font-size: 2rem;
+   text-align: right;
+}
+
+.order h4 {
+   font-size: 1.3rem;
+}
+
+.order address {
+   font-size: 1.5rem;
+}
+
+.order div {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 100px;
+   border-bottom: 1px groove rgb(0, 0, 0);
+}
+
+.order article {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: rgb(238, 238, 238);
+   box-shadow: none !important;
+   border: none !important;
+   border-bottom: 1px groove rgb(0, 0, 0) !important;
+   margin: 0 !important;
+}
+
+.order p {
+   font-size: 1.3rem;
+   color: black !important;
+   font-weight: 600;
+   min-width: 140px;
+   max-width: 140px;
+}

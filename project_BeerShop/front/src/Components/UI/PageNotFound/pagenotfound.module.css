@@ -1,0 +1,14 @@
+.pagenotfound {
+   background-color: rgba(29, 29, 29, 0.932);
+}
+
+.pagenotfound section {
+   padding-bottom: 100px;
+   padding-top: 100px;
+
+   margin: auto;
+
+   font-size: 2rem;
+   text-align: center;
+   color: antiquewhite;
+}

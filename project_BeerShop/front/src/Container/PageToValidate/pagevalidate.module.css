@@ -1,0 +1,43 @@
+.pagevalidate {
+   background-color: rgba(29, 29, 29, 0.932);
+}
+
+.pagevalidate hr {
+   width: 90%;
+}
+
+.pagevalidate h2 {
+   display: flex;
+   color: antiquewhite;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin-left: 5%;
+   height: 120px;
+   align-items: center;
+}
+
+.pagevalidate section>h2 {
+   justify-content: center;
+   margin: 0;
+}
+
+.pagevalidate h3 {
+   margin-bottom: 100px;
+   margin-top: 150px;
+   color: antiquewhite;
+}
+
+.pagevalidate section {
+   padding-bottom: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.pagevalidate a {
+   color: antiquewhite;
+}
+
+.pagevalidate a:hover {
+   color: crimson;
+}

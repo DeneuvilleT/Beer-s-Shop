@@ -1,0 +1,193 @@
+.admin {
+   color: antiquewhite;
+   background-color: rgba(29, 29, 29, 0.932);
+}
+
+.admin h2 {
+   margin-top: 0;
+   padding-top: 40px;
+   padding-left: 5%;
+   height: 70px;
+}
+
+.admin h3 {
+   color: wheat;
+   margin-left: 5%;
+}
+
+.admin hr {
+   width: 90%;
+}
+
+.admin section article {
+   margin-bottom: 25px;
+   padding: 10px;
+   border: groove black 1px;
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12), 0 14px 20px rgba(0, 0, 0, 0.24);
+   min-width: 200px;
+}
+
+
+/* Users */
+.admin section:nth-child(4) {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-bottom: 25px;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+.admin section:nth-child(4) article {
+   min-width: 280px;
+}
+
+.admin section:nth-child(8) {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* Product */
+.admin section:nth-child(8) form input {
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: antiquewhite;
+}
+
+.admin section:nth-child(8) form input[type="submit"] {
+   width: 15%;
+   border-radius: 20px;
+   background-color: rgb(148, 35, 0);
+   margin: auto;
+   text-align: center;
+   margin: 25px;
+}
+
+.admin section:nth-child(8) {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5%;
+   margin-bottom: 25px;
+   height: 500px;
+   overflow: scroll;
+}
+
+.admin section:nth-child(8)::-webkit-scrollbar {
+   display: none;
+   scroll-behavior: smooth;
+}
+
+.admin section:nth-child(8) article {
+   color: rgb(255, 255, 255);
+   font-size: 1.1rem;
+   background-color: rgba(109, 109, 109, 0.445);
+   margin-right: 10px;
+   min-width: 250px;
+   height: auto;
+}
+
+.admin section:nth-child(8) article h3 {
+   text-align: center;
+}
+
+
+/* Order */
+.admin section:nth-child(11) {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-right: 5%;
+   margin-left: 5%;
+}
+
+.admin section:nth-child(11) article {
+   display: flex;
+   flex-direction: column;
+   min-width: 250px;
+   margin: 40px;
+}
+
+.admin section:nth-child(11) article a {
+   cursor: pointer;
+   color: antiquewhite;
+}
+
+.admin section:nth-child(11) article button {
+   max-width: 39px;
+}
+
+.admin section:nth-child(12) {
+   display: flex;
+   flex-direction: column-reverse;
+   align-items: center;
+   padding-bottom: 50px;
+}
+
+.admin section:nth-child(12) button {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   width: 120% !;
+}
+
+.admin button,
+.admin input[type="submit"] {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 14px 20px rgb(0, 0, 0, 0.12),
+      0 14px 20px rgba(0, 0, 0, 0.24);
+   background-color: rgb(148, 35, 0);
+   padding: 10px 15px 10px 15px;
+   border-radius: 20px;
+   font-weight: 900;
+   cursor: pointer;
+
+   margin: 10px;
+   color: wheat;
+   border: none;
+}
+
+.admin button:hover {
+   transform: scale(0.92);
+}
+
+.admin address {
+   text-align: right;
+   font-size: 1.1rem;
+   margin-top: 6px;
+}
+
+@media all and (max-width: 680px) {
+
+   .admin h2,
+   .admin h3 {
+      text-align: center;
+   }
+
+   .admin hr {
+      display: block;
+   }
+
+   .admin section:nth-child(11) article address a {
+      display: none;
+   }
+}
+
+@media all and (min-width:681px)and (max-width: 1024px) {
+
+   .header div {
+      justify-content: center;
+      margin: auto;
+   }
+}
