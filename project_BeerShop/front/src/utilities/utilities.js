@@ -20,9 +20,13 @@ export const displayOrder = async (e, detailOrder, id) => {
 };
 
 
+let id = null;
 export const timerMsg = (setMsg, msg) => {
+   clearTimeout(id);
+   setMsg('');
    setMsg(msg);
-   setTimeout(() => {
+   id = window.setTimeout(() => {
+      clearTimeout(id)
       setMsg('');
    }, 3000);
-}   
+};   
